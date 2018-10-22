@@ -3,9 +3,9 @@
 Forma de utilizar o PHP 7.2.11, composer e laravel, sem necessidade de instalação uma forma simples de montar um ambiente mesmo sem privilégios de instalação
 
 
-Realizar o Download do *PHP 7.2.11*
-[x64](https://windows.php.net/downloads/releases/php-7.2.11-nts-Win32-VC15-x64.zip)
-[x86](https://windows.php.net/downloads/releases/php-7.2.11-nts-Win32-VC15-x86.zip)
+Realizar o Download do 
+####PHP 7.2.11[x64](https://windows.php.net/downloads/releases/php-7.2.11-nts-Win32-VC15-x64.zip)
+####PHP 7.2.11[x86](https://windows.php.net/downloads/releases/php-7.2.11-nts-Win32-VC15-x86.zip)
 
 Renomear o arquivo para php-7.2.11
 
@@ -16,7 +16,7 @@ $ wget -O php-7.2.11.zip https://windows.php.net/downloads/releases/php-7.2.11-n
 Descompactar no diretorio utilizando o nome php-7.2.11
 
 ```sh
-$ unzip php-7.2.11.zip -d Documents/php
+$ unzip php-7.2.11.zip -d php
 ```
 Criar arquivo para informar versão 
 (echo phpinfo();) | php > PHP-7.2.11.txt
@@ -31,6 +31,8 @@ Editar o arquivo de Configuração do php
 Descomentar estas extensões para uso
 
 ```sh
+extension_dir = "ext"
+
 extension=curl
 extension=fileinfo
 extension=mbstring
