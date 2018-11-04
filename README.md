@@ -5,9 +5,9 @@ Forma de utilizar o PHP 7.2.11, composer e laravel, sem necessidade de instalaç
 
 Realizar o Download
 
-####PHP 7.2.11[x64](https://windows.php.net/downloads/releases/php-7.2.11-nts-Win32-VC15-x64.zip)
+#### PHP 7.2.11[x64](https://windows.php.net/downloads/releases/php-7.2.11-nts-Win32-VC15-x64.zip)
 
-####PHP 7.2.11[x86](https://windows.php.net/downloads/releases/php-7.2.11-nts-Win32-VC15-x86.zip)
+#### PHP 7.2.11[x86](https://windows.php.net/downloads/releases/php-7.2.11-nts-Win32-VC15-x86.zip)
 
 Renomear o arquivo para php-7.2.11
 
