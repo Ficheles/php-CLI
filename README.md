@@ -66,3 +66,8 @@ definir o caminho para o laravel
 ```sh
 $ EXPORT PATH=$PATH:'/c/web/laravel' 
 ```
+
+Comando para fazer backup
+```sh
+@XCOPY c:\Temp\*.* D:\c\Temp /D /E /Y /C /K >> logbackup.txt
+```
