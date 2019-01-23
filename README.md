@@ -59,12 +59,12 @@ $ EXPORT PATH=$PATH:'/c/web/php'
 
 definir o caminho para o composer
 ```sh
-$ EXPORT PATH=$PATH:'/c/web/composer' 
+$ EXPORT PATH=$PATH:'/c/web/composer/bin' 
 ```
 
 definir o caminho para o laravel
 ```sh
-$ EXPORT PATH=$PATH:'/c/web/laravel' 
+$ EXPORT PATH=$PATH:'/c/web/laravel/vendor/bin' 
 ```
 
 Comando para fazer backup
