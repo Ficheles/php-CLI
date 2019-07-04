@@ -49,7 +49,7 @@ testar utilizado o comando
 $ php -v
 $ php -r phpinfo();
 $ echo criar um arquivo para saber a versão
-$ php -r phpinfo(); > Version_php-7.2.11.txt
+$ php -i > Version_php-7.2.11.txt
 ```
 
 definir o php para uso
