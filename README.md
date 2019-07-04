@@ -52,6 +52,17 @@ $ echo criar um arquivo para saber a versão
 $ php -i > Version_php-7.2.11.txt
 ```
 
+install [Xdebug](http://xdebug.org/files/php_xdebug-2.7.2-7.2-vc15-nts-x86_64.dll)
+```sh
+zend_extension=php_xdebug.dll
+xdebug.remote_autostart = 1
+xdebug.remote_enable = 1
+xdebug.remote_handler = dbgp
+xdebug.remote_host = 127.0.0.1
+xdebug.remote_log = /tmp/xdebug_remote.log
+xdebug.remote_mode = req
+```
+
 definir o php para uso
 ```sh
 $ EXPORT PATH=$PATH:'/c/web/php'
