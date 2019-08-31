@@ -82,3 +82,9 @@ Comando para fazer backup
 ```sh
 @XCOPY c:\Temp\*.* D:\c\Temp /D /E /Y /C /K >> logbackup.txt
 ```
+Executar PHP por linha de Comando
+```sh
+$ php -S localhost:80 -t public
+```
+
+ 
